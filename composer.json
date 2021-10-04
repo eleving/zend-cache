@@ -1,5 +1,5 @@
 {
-    "name": "zendframework/zend-cache",
+    "name": "mogo-africa/zend-cache",
     "description": "Caching implementation with a variety of storage options, as well as codified caching strategies for callbacks, classes, and output",
     "license": "BSD-3-Clause",
     "keywords": [
@@ -16,6 +16,9 @@
         "rss": "https://github.com/zendframework/zend-cache/releases.atom",
         "chat": "https://zendframework-slack.herokuapp.com",
         "forum": "https://discourse.zendframework.com/c/questions/components"
+    },
+    "replace": {
+        "zendframework/zend-cache": "2.8.3"
     },
     "require": {
         "php": "^5.6 || ^7.0",
